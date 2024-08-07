@@ -23,8 +23,7 @@ Project Details
 ```kotlin
     implementation(libs.lifecycle.viewmodel.compose)
 ```
-   
-   
+12. This app has setup for fake API(using method ```fun getMobilesFake(){ }```) in Viewmodel class after given API limit is reached.
 
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
