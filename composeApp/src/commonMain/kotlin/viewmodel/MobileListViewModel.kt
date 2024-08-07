@@ -31,7 +31,8 @@ class MobileListViewModel : ViewModel() {
             try {
                 delay(2000)
                 val mobileList = apiService.getMobilesFake()
-                throw Exception("Custom Exception Fake Repo")
+                // To test exception scenario uncomment below line
+                // throw Exception("Custom Exception Fake Repo")
                 _mobileDataState.value = MobileDataState.Success(mobileList)
             }catch (ex:Exception){
                 ex.message?.let {
